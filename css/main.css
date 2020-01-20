@@ -1,0 +1,63 @@
+/*****BASE STYLES****/
+
+body {
+    background: #ffffff;
+    height: 1450px;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    color: #087e8b;
+    margin: 200px;
+    padding:30px;
+    }
+
+/*****HEADER*****/
+
+.hero-image {
+    height: 800px;
+    width: 1400px;
+    background: url('../img/hero-image.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 50pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #bdbf09;
+}
+
+#opening {
+    text-align: center;
+    font-size: 28pt;
+    position: absolute;
+    color: #095156;
+}
+
+h3 {
+    font-size: 38pt;
+}
+
+p {
+    font-size: 28pt;
+}
+
+#contact {
+    font-size: 28px;
+}
+
+.half-width {
+    width: 50%;
+    border: 1pt solid;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#jubilee {
+    float: right;
+}
