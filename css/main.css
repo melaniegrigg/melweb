@@ -1,63 +1,159 @@
 /*****BASE STYLES****/
 
 body {
-    background: #ffffff;
-    height: 1450px;
-    width: 100%;
+    background-color: #ffffff;
     font-family: 'Roboto Slab', serif;
-    color: #087e8b;
-    margin: 200px;
-    padding:30px;
     }
 
-/*****HEADER*****/
 
-.hero-image {
-    height: 800px;
-    width: 1400px;
-    background: url('../img/hero-image.png');
-    background-position: center;
-    background-size: cover;
-}
+/*****GRID*****/
 
-.hero-text {
-  text-align: center;
-  font-size: 50pt;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #bdbf09;
-}
-
-#opening {
-    text-align: center;
-    font-size: 28pt;
-    position: absolute;
-    color: #095156;
-}
-
-h3 {
-    font-size: 38pt;
-}
-
-p {
-    font-size: 28pt;
-}
-
-#contact {
-    font-size: 28px;
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 .half-width {
-    width: 50%;
-    border: 1pt solid;
+    width: 600px;
+    border: 10px;
+    float: left;
 }
 
-.full-width {
-    width: 100%;
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    color: #bdbf09;
+    text-align: center;
+    padding-top: 330px;
+}
+
+header h2{
+    width: 1000px;
+    clear: both;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    color: #095156;
+    text-align: center;
+    padding-left: 90px;
+}
+
+/*****PORTFOLIO******/
+
+#portfolio .full-width {
+    padding: 60px;
+    overflow: auto;
+}
+
+}
+#portfolio h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+    text-align: center;
+    color: #095156;
+}
+
+#portfolio h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #095156;
+    padding-bottom: 30px;
+}
+
+#portfolio p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #087e8b;
+    padding: 10px;
 }
 
 #jubilee {
+    border: 20px;
+    border-color: #ffffff;
+}
+
+/*****ABOUT*****/
+
+#about .full-width {
+    background-color: #087e8b;
+    width: 1200px;
+    background: cover;
+    overflow: auto;
+}
+
+#about h3 {
+    font-family: 'Lato', sans-serif;;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-family: 'Lato', sans-serif;;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 20px;
+
+}
+
+/******CONTACT*****/
+
+
+#contact .full-width {
+    background-color: #095156;
+    overflow: auto;
+}
+
+#contact-img {
     float: right;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 22px;
+    font-style: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+#contact h2 {
+    font-size: 28px;
+    font-style: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 22px;
+    font-style: 'Lato', sans-serif;
+    color: #ffffff;
+
+}
+
+
+#contact h5 {
+    font-size: 15px;
+    font-style: 'Lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
 }
