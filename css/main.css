@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto Slab', serif;
     }
 
+a {
+  font-size: 22px;
+  color: #828282;
+}
 
 /*****GRID*****/
 
@@ -34,12 +38,28 @@ header {
     text-align: center;
 }
 
+nav {
+    padding: 75px 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    text-align: center;
+}
 header h1{
     font-family: 'Roboto Slab', serif;
     font-size: 48px;
     color: #bdbf09;
     text-align: center;
-    padding-top: 330px;
+    padding-top: 100px;
 }
 
 header h2{
@@ -84,20 +104,20 @@ header h2{
 
 #jubilee {
     border: 20px;
+    padding-top: 60px;
     border-color: #ffffff;
 }
 
 /*****ABOUT*****/
 
-#about .full-width {
+#about {
     background-color: #087e8b;
-    width: 1200px;
-    background: cover;
     overflow: auto;
+    height: 500px;
 }
 
 #about h3 {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
     font-size: 35px;
     color: #ffffff;
     text-align: center;
@@ -105,55 +125,58 @@ header h2{
 }
 
 #about p {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
     font-size: 22px;
     color: #ffffff;
     font-weight: 300;
     padding-left: 20px;
-
+    padding-right: 50px;
+    padding-top: 50px;
 }
 
 /******CONTACT*****/
 
 
-#contact .full-width {
-    background-color: #095156;
-    overflow: auto;
+#connect {
+  background-color: #095156;
+  overflow: auto;
 }
 
 #contact-img {
     float: right;
+    padding-top: 50px;
     padding-right: 150px;
     padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#contact p {
+#connect p {
     font-size: 22px;
     font-style: 'Lato', sans-serif;
-    color: #ffffff;
-    font-weight: 100;
+    color: #828282;
+    font-weight: 300;
 }
 
-#contact h2 {
+#connect h2 {
     font-size: 28px;
     font-style: 'Lato', sans-serif;
     color: #ffffff;
     text-align: center;
 }
 
-#contact h3 {
+#connect h3 {
     font-size: 22px;
     font-style: 'Lato', sans-serif;
     color: #ffffff;
-
+    font-weight: 300;
 }
 
 
-#contact h5 {
+#connect h5 {
     font-size: 15px;
     font-style: 'Lato', sans-serif;
     color: #ffffff;
     text-align: center;
+    font-weight: 300;
 }
